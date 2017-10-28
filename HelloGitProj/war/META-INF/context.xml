@@ -1,0 +1,16 @@
+<Context reloadable="true>
+
+<Resource 
+
+auth="Container"
+name="jdbc/jarvis"
+type="javax.sql.DataSource"
+driverClassName="com.mysql.jdbc.Driver"
+username="root"
+password="pa$$word"
+maxIdle="2"
+maxWait="5000"
+url="jdbc:mysql:/localhost:3306/jarvis"
+maxActive="5" />
+
+</Context>
